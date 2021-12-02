@@ -1,0 +1,15 @@
+body {
+	background: red;
+}
+
+header {
+	text-align: center;
+}
+
+#Teams > * {
+	text-align: center;
+}
+
+h2 {
+	color: white;
+}

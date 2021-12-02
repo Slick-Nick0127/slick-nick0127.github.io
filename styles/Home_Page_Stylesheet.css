@@ -1,0 +1,25 @@
+body {
+	background: red;
+}
+
+header, main {
+	text-align: center;
+}
+
+tbody, thead {
+	text-align: center
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	align-items: center;
+}
+
+th, tr, td, table {
+	background: white;
+	align-items: center;
+}
+
