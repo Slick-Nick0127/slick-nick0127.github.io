@@ -13,3 +13,8 @@ header {
 h2 {
 	color: white;
 }
+
+input:hover {
+	transition: 500ms;
+	transform: scale(1.25);
+}
