@@ -56,6 +56,11 @@ input:hover {
 	transition: 500ms;
 }
 
+img:hover {
+	transition: 500ms;
+	transform: scale(1.25);
+}
+
 @keyframes move {
 	from {
 		transform: scale(0);
