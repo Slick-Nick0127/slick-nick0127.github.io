@@ -18,8 +18,49 @@ img {
 	align-items: center;
 }
 
+#Best_Players {
+	transform: scale(0.5);
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: forward;
+}
+
 th, tr, td, table {
 	background: white;
 	align-items: center;
 }
 
+.winner {
+	font-weight: bold;
+}
+
+tr:nth-of-type(1) > td:nth-of-type(1) {
+	color: #FFD700;
+}
+
+tr:nth-of-type(2) > td:nth-of-type(1) {
+	color: #C0C0C0;
+}
+
+tr:nth-of-type(3) > td:nth-of-type(1) {
+	color: #CD7F32;
+}
+
+tr:nth-of-type(4) > td:nth-of-type(1) {
+	color: #800080;
+}
+
+input:hover {
+	background: blue;
+	transition: 500ms;
+}
+
+@keyframes move {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1.25);
+	}
+}
