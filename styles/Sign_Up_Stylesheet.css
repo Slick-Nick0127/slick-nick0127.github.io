@@ -5,3 +5,13 @@ body {
 header {
 	text-align: center;
 }
+
+#submit:hover {
+	background: blue;
+	transition: 500ms;
+}
+
+a:hover {
+	color: yellow;
+	transition: 500ms;
+}
